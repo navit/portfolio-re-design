@@ -52,12 +52,15 @@ table {
 body{
   font-family:'maven_pro_light300','Roboto Slab','Open Sans','Lato', sans-serif;
   text-transform: uppercase;
-  font-size: 31pt;
+  font-size: 25pt;
   line-height: 60px;
   letter-spacing: 0.1px;
   word-spacing: 0.1px;
   font-weight: 200;
  /* background: #e3ecf1;*/
+}
+#container{
+  width: 100%;
 }
 #bgOne{
   background-image: url('../images/home.jpg'); background-repeat: no-repeat;
@@ -78,13 +81,12 @@ body{
   z-index: -1;
 }
 #aboutme{
-  padding-top: 150px;
-  padding-left: 120px;
-  padding-bottom: 235px;
-  width:85%; 
+  margin:190px auto;
+  max-width: 970px;
+  
 }
 a{
-  font-size: 31pt;
+  font-size: 25pt;
   text-decoration: underline;
   color:black;
 }
@@ -98,70 +100,88 @@ a#title{
   letter-spacing: 0.9px;
   text-decoration: none;
 }
-#see_work{
-  font-size: 12pt;
-  margin-left: 470px;
-  margin-top:210px; 
+#see-work{
+  width: 100%;
+  z-index: 900;
 }
-#see_work:hover{
-  background: #58ff8d;
-}
-img.thumbnails{
-  vertical-align: middle;
-  max-width: 100%;
-  position: relative;
+#see-work img{
+  margin:80px auto;
+  width: 198px;
   display: block;
 }
+#see-work>a:hover{
+  background: #58ff8d;
+}
+
+/*thumbnails section*/
+
 #thumbnails_section {
   overflow: hidden;
-  margin-left: 120px;
-  padding-top: 50px;
+  margin: 50px auto;
   background: white;
+  max-width: 970px;
+  width: 100%;
 }
-.thumbnail_style {
+
+.thumbnail_style{
   float: left;
   position: relative;
   overflow: hidden;
   width: 280px;
-  height: 260px;
-  margin: 0px;
-  margin-right: 20px;
-  margin-bottom: 20px;
-}
-#thumbnail_text {
-  margin-bottom: 40px;
-  width: 240px;
-  padding: 20px;
-  font-size: 9pt;
-  font-weight: 400;
-  float: left;
-  line-height: 12pt;
-  font-weight: normal;
-  color: #222222;
-  padding-top: 8px;
-  background-color: #fbf9f5;
+  margin: 0 20px 20px 20px;
+  /*background-color: #fbf9f5;*/
+  background-color: white;
   text-shadow: rgba(0,0,0,.01) 0 0 1px;
-  bottom: 8px;
   -moz-box-shadow: 0px 1px 1px #d1cec2;
   -webkit-box-shadow: 0px 1px 1px #d1cec2;
   box-shadow: 0px 1px 1px #d1cec2;
-  z-index: 200;
+  text-decoration: none;
 }
+ h3.thumbnail_text{
+  font-size: 10pt;
+  font-weight: 400;
+  color: black;
+  padding:5px 0 0 25px;
+}
+
+/*example*/
+.thumbnail_style:hover h3.thumbnail_text{
+  color:#58ff8d;
+ }
+.thumbnail_style:hover .imgthumb{
+  background-position: 0px -100px;
+}
+
+img.thumbnails{
+  vertical-align: middle;
+  max-width: 100%;
+  position: relative;
+}
+
+
 /*Project pages****************/
-#points{
-  margin-top: -50px;
-  margin-left: 650px;
-  width: 150px;
+#header{
+  width: 100%;
   position: fixed;
+  z-index: 900;
 }
-#points:hover{
-  background: #58ff8d;
+#points{
+  margin:20px auto;
+  width: 150px;
+  position: relative;
+  display: block;
+}
+#points img {
+  width: 100%;
+}
+#points:hover img {
+background: #58ff8d;
 }
 #content{
  width:85%;
  margin: 80px auto;
- /*background: grey;
-*/}
+ background: grey;
+}
 #info_text{
   width:70%;
   padding-bottom: 20px;
@@ -169,10 +189,23 @@ img.thumbnails{
  /* border-bottom: black solid 1px;*/
 }
 .work{
-  width:73.5%;
   margin: 60px auto;
   background: yellow;
+  position: relative;
 }
+
+.big-image {
+  position: relative;
+  width: 100%;
+  height:650px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: auto; /* will stay the default height/width it is*/
+  background-size: 100% auto; /* will be 100% width */
+  background-size: contain; /* fits inside the avail space */
+
+}
+
 h1{
   font-size: 22pt;
   color: black;
