@@ -214,12 +214,13 @@ background: #58ff8d;
 .big-image {
   position: relative;
   width: 100%;
-  height:650px;
+  height:750px;
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto; /* will stay the default height/width it is*/
   background-size: 100% auto; /* will be 100% width */
   background-size: contain; /* fits inside the avail space */
+  margin-bottom: 20px;
 }
 p{
   font-family: 'maven_pro_light300';
