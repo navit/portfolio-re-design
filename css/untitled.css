@@ -1,0 +1,90 @@
+@media (max-width: 1244px) and (min-width: 1230px){
+ .thumbnail_style{
+  float: left;
+  position: relative;
+  overflow: hidden;
+  width: 375px;
+  margin: 0 15px 15px 15px;
+  }
+}
+@media (max-width: 1230px) and (min-width: 1214px){
+ .thumbnail_style{
+  float: left;
+  position: relative;
+  overflow: hidden;
+  width: 375px;
+  margin: 0 10px 10px 10px;
+  }
+}
+@media (max-width: 1214px) and (min-width: 1185px){
+ .thumbnail_style{
+  float: left;
+  position: relative;
+  overflow: hidden;
+  width: 375px;
+  margin: 0 10px 10px 10px;
+  }
+}
+@media (max-width: 1185px) and (min-width: 1160px){
+ .thumbnail_style{
+  float: left;
+  position: relative;
+  overflow: hidden;
+  width: 375px;
+  margin: 0 6px 6px 6px;
+  }
+}
+@media (max-width: 1160px) and (min-width: 1080px){
+ .thumbnail_style{
+  float: left;
+  position: relative;
+  overflow: hidden;
+  width: 500px;
+  margin: 0 20px 20px 20px;
+  }
+}
+@media (max-width: 1079px) and (min-width: 1060px){
+ .thumbnail_style{
+  float: left;
+  position: relative;
+  overflow: hidden;
+  width: 490px;
+  margin: 0 20px 20px 20px;
+  }
+}
+@media (max-width: 1059px) and (min-width:820px){
+ .thumbnail_style{
+  float: left;
+  position: relative;
+  overflow: hidden;
+  width: 600px;
+  margin: 0 20px 20px 20px;
+  }
+}
+@media (max-width: 819px) and (min-width:642px){
+ .thumbnail_style{
+  float: left;
+  position: relative;
+  overflow: hidden;
+  width: 600px;
+  margin: 0 20px 20px 20px;
+  }
+}
+@media (max-width: 641px) and (min-width:620px){
+ .thumbnail_style{
+  float: left;
+  position: relative;
+  overflow: hidden;
+  width: 600px;
+  margin: 0 20px 20px 20px;
+  }
+}
+@media (max-width: 619px) and (min-width:500px){
+ .thumbnail_style{
+  float: left;
+  position: relative;
+  overflow: hidden;
+  width: 590px;
+  margin: 0 20px 20px 20px;
+  }
+}
