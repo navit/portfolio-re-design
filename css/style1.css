@@ -72,25 +72,6 @@ body{
   height: 73px;
   display: block;
 }
-/*#bgOne{
-  background-image: url('../images/home.jpg'); background-repeat: no-repeat;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top:0;
-  left:200px;
-  z-index: -2;
-}
-#bgTwo{
-  background-image: url('../images/home1.jpg'); background-repeat: no-repeat;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top:100px;
-  left:200px;
-  z-index: -1;
-}*/
-
 #aboutme{
   margin:250px auto;
   max-width: 1260px;
@@ -158,8 +139,8 @@ a#work{
   margin: 90px auto;
   max-width: 1280px;
   width: 100%;
-  background-color: yellow;
-  padding-top: 20px;
+  /*background-color: yellow;
+*/  padding-top: 20px;
   padding-left: 30px;
 
 }
@@ -169,13 +150,6 @@ a#work{
   overflow: hidden;
   width: 22%;
   margin: 0 15px 15px 15px;
-  /*background-color: #fbf9f5;*/
-  background-color: white;
-  text-shadow: rgba(0,0,0,.01) 0 0 1px;
-  -moz-box-shadow: 0px 1px 1px #d1cec2;
-  -webkit-box-shadow: 0px 1px 1px #d1cec2;
-  box-shadow: 0px 1px 1px #d1cec2;
-  text-decoration: none;
 }
 @media (max-width: 1280px) and (min-width: 900px){
  .thumbnail_style{
@@ -231,12 +205,13 @@ a#work{
   font-size: 11pt;
   font-weight: 400;
   color: black;
-  padding:5px 0 0 25px;
+  text-decoration: none;
 }
 
 /*example*/
 .thumbnail_style:hover h3.thumbnail_text{
   color:#58ff8d;
+  text-decoration: none;
  }
 .thumbnail_style:hover .imgthumb{
   background-position: 0px -100px;
@@ -247,6 +222,8 @@ img.thumbnails{
   max-width: 100%;
   position: relative;
 }
+
+
 
 
 /*Project pages /////////////////////////////////////////////////////////////////////////////////////////////////////////*/

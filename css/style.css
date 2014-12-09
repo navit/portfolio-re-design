@@ -56,62 +56,90 @@ body{
   line-height: 55px;
   letter-spacing: 0.1px;
   word-spacing: 0.1px;
-  /*font-weight: 200;*/
 }
 #container{
-   width: 100%;
+   height: 100%;
+   background-color: red;
+   min-height: 1300px;
+   
 }
 #logo{
   width: 100%;
   position: fixed;
   z-index: 1000;
+
 }
 #logo img{
-  margin:-130px auto;
+  margin:50px 0 0 100px;
   width: 79px;
   height: 73px;
   display: block;
 }
-/*#bgOne{
-  background-image: url('../images/home.jpg'); background-repeat: no-repeat;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top:0;
-  left:200px;
-  z-index: -2;
-}
-#bgTwo{
-  background-image: url('../images/home1.jpg'); background-repeat: no-repeat;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top:100px;
-  left:200px;
-  z-index: -1;
-}*/
 
 #aboutme{
-  margin:250px auto;
+  display: inline-block;
+  vertical-align: middle;
   max-width: 1280px;
+  text-align: left;
   width: 100%;
-  background-color: red;
-  padding: 40px;
+  margin:200px 0 0 150px;
+  /*background-color: red;*/
   
 }
-@media (max-width: 1280px) and (min-width: 500px){
-  #aboutme p {
-  font-size: 25px;
-  line-height: 45px;
-  }
-}
-@media (max-width: 500px) and (min-width: 400px){
-  #aboutme p{
-    font-size: 21px;
-    line-height: 40px;
-  }
+#aboutme p{
+    font-size: 70px;
+    line-height: 90px;
+    font-weight: 500;
 }
 
+@media (max-width: 2260px) and (min-width: 1140px){
+  #aboutme {
+    max-width: 960px;
+  }
+  #aboutme p{
+    font-size: 60px;
+    line-height: 80px;
+    font-weight: 500
+  }
+}
+@media (max-width: 1140px) and (min-width: 1060px){
+  #aboutme {
+  max-width: 960px;
+  }
+  #aboutme p{
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 500
+  }
+}
+@media (max-width: 1059px) and (min-width: 600px){
+  #aboutme p{
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 500;
+  }
+  #aboutme{
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 960px;
+  text-align: left;
+  width: 80%;
+  }
+}
+@media (max-width: 599px) and (min-width: 400px){
+  #aboutme p{
+  font-size: 25px;
+  line-height: 40px;
+  font-weight: 500;
+  }
+  #aboutme{
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 960px;
+  text-align: left;
+  width: 70%;
+  } 
+}
 a{
   text-decoration: underline;
   color:black;
@@ -132,35 +160,29 @@ a#work{
   
 }
 #see-work{
-  width: 50%;
-  margin: 80px auto;
-  z-index: 900;
+  left:50%;
   background-color: blue;
-  margin-top: -150px;
+  position: absolute;
+  margin-left: -20px;
+  bottom: 10px;
 }
 #see-work img{
-  margin: 0 auto
-  width: 80px;
-  display: block;
+  margin: 0 auto;
+  width: 50px;
 }
-
 
 
 
 /*thumbnails section /////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 #thumbnails_container{
   width: 100%;
-  /*background:#EAEAEA;*/
-  margin: 90px auto;
+  max-width: 1280px;
+  margin: 30px auto;
 }
 #thumbnails_section {
   overflow: hidden;
-  margin: 90px auto;
-  max-width: 1280px;
-  width: 100%;
   background-color: yellow;
-  padding-top: 20px;
-  padding-left: 20px;
+  
 
 }
 .thumbnail_style{
@@ -347,14 +369,26 @@ h2{
   margin-bottom: -10px;
   padding-top: 10px;
   }
-  /*.big-image {
-     margin-bottom: -150px;
-  }
-  #info_text>p{
-   margin-bottom: -260px;
-  }*/
 }
 
+/*#bgOne{
+  background-image: url('../images/home.jpg'); background-repeat: no-repeat;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top:0;
+  left:200px;
+  z-index: -2;
+}
+#bgTwo{
+  background-image: url('../images/home1.jpg'); background-repeat: no-repeat;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top:100px;
+  left:200px;
+  z-index: -1;
+}*/
 
 
 
