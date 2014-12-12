@@ -59,9 +59,8 @@ body{
 }
 #container{
    height: 100%;
-   background-color: red;
-   min-height: 1300px;
-   
+   min-height: 1320px;
+   background-color: #d6edec; 
 }
 #logo{
   width: 100%;
@@ -70,7 +69,7 @@ body{
 
 }
 #logo img{
-  margin:50px 0 0 100px;
+  margin:50px 0 0 140px;
   width: 79px;
   height: 73px;
   display: block;
@@ -83,8 +82,8 @@ body{
   text-align: left;
   width: 100%;
   margin:200px 0 0 150px;
-  /*background-color: red;*/
-  
+ background-color: red;
+ 
 }
 #aboutme p{
     font-size: 70px;
@@ -112,10 +111,23 @@ body{
     font-weight: 500
   }
 }
-@media (max-width: 1059px) and (min-width: 600px){
+@media (max-width: 1059px) and (min-width: 680px){
   #aboutme p{
   font-size: 40px;
   line-height: 60px;
+  font-weight: 500;
+  }
+  #aboutme{
+  vertical-align: middle;
+  max-width: 960px;
+  text-align: left;
+  width: 80%;
+  }
+}
+@media (max-width: 680px) and (min-width: 600px){
+  #aboutme p{
+  font-size: 35px;
+  line-height: 55px;
   font-weight: 500;
   }
   #aboutme{
@@ -123,12 +135,26 @@ body{
   vertical-align: middle;
   max-width: 960px;
   text-align: left;
-  width: 80%;
-  }
+  width: 60%;
+  } 
 }
-@media (max-width: 599px) and (min-width: 400px){
+@media (max-width: 599px) and (min-width: 500px){
   #aboutme p{
-  font-size: 25px;
+  font-size: 30px;
+  line-height: 50px;
+  font-weight: 500;
+  }
+  #aboutme{
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 960px;
+  text-align: left;
+  width: 52%;
+  } 
+}
+@media (max-width: 499px) and (min-width: 400px){
+  #aboutme p{
+  font-size: 23px;
   line-height: 40px;
   font-weight: 500;
   }
@@ -137,7 +163,7 @@ body{
   vertical-align: middle;
   max-width: 960px;
   text-align: left;
-  width: 70%;
+  width: 50%;
   } 
 }
 a{
@@ -159,16 +185,48 @@ a#work{
   text-decoration: none;
   
 }
+#social{
+ margin-top: 20px;
+ margin-left: 5px;
+ 
+}
+#social img{
+  display: inline;
+  border: 2px solid;
+  border-radius: 7px;
+  background-color: black;
+  width:35px;
+  margin-left: 5px;
+}
+@media (max-width: 2560px) and (min-width: 1060px){
+  #social img{
+  float left;
+  width:35px;
+  margin-left: 5px;
+  }
+}
+@media (max-width: 1059px) and (min-width: 790px){
+  #social img{
+  float left;
+  width: 25px;
+  }
+}
+@media (max-width: 789px) and (min-width: 400px){
+  #social img{
+  float left;
+  width: 25px;
+  }
+}
 #see-work{
   left:50%;
-  background-color: blue;
+  background-color:#58ff8d;
   position: absolute;
   margin-left: -20px;
-  bottom: 10px;
+  bottom: 5px;
 }
 #see-work img{
   margin: 0 auto;
-  width: 50px;
+  width: 80px;
 }
 
 
@@ -177,12 +235,14 @@ a#work{
 #thumbnails_container{
   width: 100%;
   max-width: 1280px;
-  margin: 30px auto;
+  margin: 300px auto;
+  vertical-align: middle;
 }
+ 
 #thumbnails_section {
   overflow: hidden;
-  background-color: yellow;
-  
+ /* background-color: yellow; */
+  padding-left: 15px;
 
 }
 .thumbnail_style{
@@ -240,7 +300,7 @@ a#work{
   float: left;
   position: relative;
   overflow: hidden;
-  width: 90 %;
+  width: 90%;
   margin: 0 15px 15px 15px;
   }
   #thumbnails_section {
@@ -296,19 +356,13 @@ img.thumbnails{
   display: block;
 
 }
-/*#points img {
-  width: 100%;
-}
-#points:hover img {
-background: #58ff8d;*/
-}
 #content{
  width:85%;
  margin: 80px auto;
  background: grey;
 }
 #info_text{
-  width:70%;
+  width:40%;
   padding: 150px 0 0 20px;
   margin: 0 auto;
  /* border-bottom: black solid 1px;*/
