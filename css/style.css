@@ -69,12 +69,19 @@ body{
 
 }
 #logo img{
-  margin:50px 0 0 140px;
-  width: 79px;
-  height: 73px;
+  margin:70px 0 0 155px;
+  width: 76px;
+  height: 70px;
   display: block;
 }
-
+@media (max-width: 1280px) and (min-width: 1140px){
+  #logo img{
+  margin:70px 0 0 158px;
+  width: 66px;
+  height: 60px;
+  display: block;
+  }
+}
 #aboutme{
   display: inline-block;
   vertical-align: middle;
@@ -82,7 +89,8 @@ body{
   text-align: left;
   width: 100%;
   margin:200px 0 0 150px;
- background-color: red;
+ /* background-color: red;*/
+  padding: 0 20px 0 20px;
  
 }
 #aboutme p{
@@ -91,7 +99,7 @@ body{
     font-weight: 500;
 }
 
-@media (max-width: 2260px) and (min-width: 1140px){
+@media (max-width: 2260px) and (min-width: 1281px){
   #aboutme {
     max-width: 960px;
   }
@@ -101,30 +109,42 @@ body{
     font-weight: 500
   }
 }
-@media (max-width: 1140px) and (min-width: 1060px){
+@media (max-width: 1280px) and (min-width: 1140px){
   #aboutme {
   max-width: 960px;
   }
   #aboutme p{
-    font-size: 50px;
-    line-height: 70px;
-    font-weight: 500
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 500;
   }
 }
-@media (max-width: 1059px) and (min-width: 680px){
-  #aboutme p{
-  font-size: 40px;
-  line-height: 60px;
-  font-weight: 500;
+@media (max-width: 1139px) and (min-width: 900px){
+  #aboutme {
+  max-width: 960px;
+  width: 80%;
   }
+  #aboutme p{
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 500;
+  }
+}
+@media (max-width: 899px) and (min-width: 680px){
   #aboutme{
   vertical-align: middle;
   max-width: 960px;
   text-align: left;
-  width: 80%;
+  width: 70%;
   }
+  #aboutme p{
+  font-size: 35px;
+  line-height: 55px;
+  font-weight: 500;
+  }
+  
 }
-@media (max-width: 680px) and (min-width: 600px){
+@media (max-width: 679px) and (min-width: 600px){
   #aboutme p{
   font-size: 35px;
   line-height: 55px;
@@ -187,7 +207,6 @@ a#work{
 }
 #social{
  margin-top: 20px;
- margin-left: 5px;
  
 }
 #social img{
@@ -196,30 +215,43 @@ a#work{
   border-radius: 7px;
   background-color: black;
   width:35px;
-  margin-left: 5px;
 }
-@media (max-width: 2560px) and (min-width: 1060px){
+@media (max-width: 2560px) and (min-width: 1281px){
   #social img{
   float left;
   width:35px;
   margin-left: 5px;
   }
 }
-@media (max-width: 1059px) and (min-width: 790px){
+@media (max-width: 1280px) and (min-width: 1140px){
+  #social img{
+  float left;
+  width:30px;
+  margin-left: 5px;
+  }
+}
+
+@media (max-width: 1139px) and (min-width: 790px){
   #social img{
   float left;
   width: 25px;
   }
 }
-@media (max-width: 789px) and (min-width: 400px){
+@media (max-width: 789px) and (min-width: 416px){
   #social img{
   float left;
   width: 25px;
+  }
+}
+@media (max-width: 415px) and (min-width: 400px){
+  #social img{
+  float left;
+  width: 23px;
   }
 }
 #see-work{
   left:50%;
-  background-color:#58ff8d;
+  /*background-color:#58ff8d;*/
   position: absolute;
   margin-left: -20px;
   bottom: 5px;
@@ -336,12 +368,6 @@ img.thumbnails{
   width: 100%;
   position: fixed;
   z-index: 900;
-}
-#points{
-  margin:-80px auto;
-  width: 150px;
-  position: relative;
-  display: block;
 }
 #projectPage{
   width: 100%;
