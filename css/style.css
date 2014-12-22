@@ -69,17 +69,49 @@ body{
 
 }
 #logo img{
-  margin:70px 0 0 155px;
+ /* margin:70px 0 0 155px;*/
   width: 76px;
   height: 70px;
+  margin-left: 6.5%;
+  margin-top:7%;
   display: block;
 }
-@media (max-width: 1280px) and (min-width: 1140px){
+@media (max-width: 1800px) and (min-width: 1400px){
+  #logo img{
+  margin:70px 0 0 158px;
+  width: 76px;
+  height: 70px;
+  margin-left: 6.5%;
+  margin-top:5%;
+  display: block;
+  }
+}
+@media (max-width: 1399px) and (min-width: 1140px){
   #logo img{
   margin:70px 0 0 158px;
   width: 66px;
   height: 60px;
+  margin-left: 7%;
+  margin-top:4%;
   display: block;
+  }
+}
+@media (max-width: 1139px) and (min-width: 400px){
+  #logo img{
+  width: 50px;
+  height: 45px;
+  margin: 15px 0 0 40px;
+  display: block;
+}
+  #logo{
+  background-color: #fff;
+  height: 70px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 2px 2px 2px #b3b3b3;
   }
 }
 #aboutme{
@@ -88,8 +120,10 @@ body{
   max-width: 1280px;
   text-align: left;
   width: 100%;
-  margin:200px 0 0 150px;
+  /*margin:200px 0 0 150px;*/
  /* background-color: red;*/
+  margin-left: 6%;
+  margin-top: 12%;
   padding: 0 20px 0 20px;
  
 }
@@ -156,6 +190,7 @@ body{
   max-width: 960px;
   text-align: left;
   width: 60%;
+  margin-top: 20%;
   } 
 }
 @media (max-width: 599px) and (min-width: 500px){
@@ -169,7 +204,8 @@ body{
   vertical-align: middle;
   max-width: 960px;
   text-align: left;
-  width: 52%;
+  width: 60%;
+  margin-top: 20%;
   } 
 }
 @media (max-width: 499px) and (min-width: 400px){
@@ -183,7 +219,8 @@ body{
   vertical-align: middle;
   max-width: 960px;
   text-align: left;
-  width: 50%;
+  width: 65%;
+  margin-top: 30%;
   } 
 }
 a{
@@ -261,21 +298,18 @@ a#work{
   width: 80px;
 }
 
-
-
 /*thumbnails section /////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 #thumbnails_container{
   width: 100%;
   max-width: 1280px;
-  margin: 300px auto;
+  margin: 240px auto;
   vertical-align: middle;
 }
  
 #thumbnails_section {
   overflow: hidden;
- /* background-color: yellow; */
-  padding-left: 15px;
-
+  background-color: yellow; 
+  padding-left: 2%;
 }
 .thumbnail_style{
   float: left;
@@ -291,7 +325,16 @@ a#work{
   box-shadow: 0px 1px 1px #d1cec2;
   text-decoration: none;
 }
-@media (max-width: 1280px) and (min-width: 900px){
+@media (max-width: 1280px) and (min-width: 1120px){
+ .thumbnail_style{
+  float: left;
+  position: relative;
+  overflow: hidden;
+  width: 22%;
+  margin: 0 15px 15px 15px;
+  }
+}
+@media (max-width: 1119px) and (min-width: 910px){
  .thumbnail_style{
   float: left;
   position: relative;
@@ -299,11 +342,8 @@ a#work{
   width: 30%;
   margin: 0 15px 15px 15px;
   }
-  #thumbnails_section {
-    padding-right: 15px;
-  }
 }
-@media (max-width: 899px) and (min-width: 690px){
+@media (max-width: 909px) and (min-width: 700px){
  .thumbnail_style{
   float: left;
   position: relative;
@@ -311,23 +351,8 @@ a#work{
   width: 45%;
   margin: 0 15px 15px 15px;
   }
-   #thumbnails_section {
-    padding-left: 10px;
-  }
 }
-@media (max-width: 689px) and (min-width: 454px){
- .thumbnail_style{
-  float: left;
-  position: relative;
-  overflow: hidden;
-  width: 93%;
-  margin: 0 15px 15px 15px;
-  }
-  #thumbnails_section {
-    padding-left: 5px;
-  }
-}
-@media (max-width: 453px) and (min-width: 400px){
+@media (max-width: 699px) and (min-width: 400px){
  .thumbnail_style{
   float: left;
   position: relative;
@@ -336,7 +361,7 @@ a#work{
   margin: 0 15px 15px 15px;
   }
   #thumbnails_section {
-    padding-left: 5px;
+   margin-right:1%;
   }
 }
 
@@ -364,6 +389,25 @@ img.thumbnails{
 
 
 /*Project pages /////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media (max-width: 2560px) and (min-width: 400px){
+  #ProjectPage{
+  width: 50px;
+  height: 45px;
+  margin: 15px 0 0 40px;
+  display: block;
+}
+  #logoProject{
+  background-color: #fff;
+  height: 70px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 2px 2px 2px #b3b3b3;
+  }
+}
+
 #header{
   width: 100%;
   position: fixed;
@@ -384,18 +428,48 @@ img.thumbnails{
 }
 #content{
  width:85%;
- margin: 80px auto;
- background: grey;
+ margin: 3% auto;
+ /*background: grey;*/
 }
 #info_text{
-  width:40%;
-  padding: 150px 0 0 20px;
+  width:45%;
+  padding: 100px 0 0 20px;
   margin: 0 auto;
  /* border-bottom: black solid 1px;*/
+
 }
+@media (max-width: 2350px) and (min-width: 1721px){
+  #info_text{
+  width:50%;
+  padding: 100px 0 0 20px;
+  margin: 0 auto;
+  }
+}
+@media (max-width: 1720px) and (min-width: 1294px){
+  #info_text{
+  width:60%;
+  padding: 100px 0 0 20px;
+  margin: 0 auto;
+  }
+}
+@media (max-width: 1293px) and (min-width: 800px){
+  #info_text{
+  width:70%;
+  padding: 100px 0 0 20px;
+  margin: 0 auto;
+  }
+}
+@media (max-width: 799px) and (min-width: 400px){
+  #info_text{
+  width:80%;
+  padding: 100px 0 0 20px;
+  margin: 0 auto;
+  }
+}
+
 .work{
   margin: 60px auto;
-  background: yellow;
+  /*background: yellow;*/
   position: relative;
 }
 .big-image {
@@ -428,20 +502,17 @@ h2{
   text-align: center;
   padding-top: 2px;
 }
-
 #info_text>p{
   font-size:11pt;
   line-height:20pt;
   text-align: center;
-  border-bottom: solid 1px;
+  /*border-bottom: solid 1px;*/
   padding-bottom: 20px;
 }
-
-
-@media (max-width: 599px) and (min-width: 400px){
+@media (max-width: 1675px) and (min-width: 600px){
  h1{
   font-size: 22pt;
-  line-height: 24pt;
+  line-height: 25pt;
   color: black;
  /* color:#58ff8d;*/
   font-weight: bold;
@@ -450,6 +521,19 @@ h2{
   padding-top: 10px;
   }
 }
+@media (max-width: 599px) and (min-width: 400px){
+ h1{
+  font-size: 18pt;
+  line-height: 22pt;
+  color: black;
+ /* color:#58ff8d;*/
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: -10px;
+  padding-top: 10px;
+  }
+}
+
 
 /*#bgOne{
   background-image: url('../images/home.jpg'); background-repeat: no-repeat;
